@@ -1,9 +1,3 @@
-
-
-highlight PHPUnitFail guibg=Red ctermbg=Red guifg=White ctermfg=White
-highlight PHPUnitOK guibg=Green ctermbg=Green guifg=Black ctermfg=Black
-highlight PHPUnitAssertFail guifg=LightRed ctermfg=LightRed
-
 " root of unit tests
 if !exists('g:phpunit_testroot')
   let g:phpunit_testroot = 'tests'
