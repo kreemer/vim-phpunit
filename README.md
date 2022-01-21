@@ -7,7 +7,7 @@ vim-phpunit is a plugin for Vim that allows you to run PHPUnit tests easily from
 ## Install via Bundle
 
 ```vim
-Plug "kreemer/vim-phpunit.vim"
+Plug "kreemer/vim-phpunit"
 ```
 
 
