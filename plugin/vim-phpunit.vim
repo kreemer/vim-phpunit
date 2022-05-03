@@ -6,6 +6,8 @@ if !exists('g:phpunit_srcroot')
   let g:phpunit_srcroot = 'src'
 endif
 
+let g:PHPUnit = {}
+
 fun! g:PHPUnit.SwitchFile()
   let file = expand('%')
   let cmd = ''
